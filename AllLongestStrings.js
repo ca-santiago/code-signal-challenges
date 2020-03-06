@@ -13,9 +13,9 @@
 
 function allLongestStrings(inputArray) {
     let output = [inputArray[0]];
-    for(let i = 1; i < inputArray.length; i++) if(inputArray[i].length > output[0].length)
+    for (let i = 1; i < inputArray.length; i++) if (inputArray[i].length > output[0].length)
         output = [inputArray[i]];
-    else if(inputArray[i].length === output[0].length) output.push(inputArray[i])
+    else if (inputArray[i].length === output[0].length) output.push(inputArray[i])
 
     return output;
 }
@@ -27,3 +27,14 @@ console.log(
         "abcd",
         "dcd"])
 );
+
+
+// THIS IS THE BEST WAY I FOUND IN CODEPEN
+
+/**
+     function allLongestStrings(inputArray) {
+        'use strict';
+        let maxSize = Math.max(...inputArray.map(x => x.length));
+        return inputArray.filter(x => x.length === maxSize);
+    }
+ */
