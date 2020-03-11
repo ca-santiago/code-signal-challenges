@@ -31,10 +31,10 @@ console.log(
 
 // THIS IS THE BEST WAY I FOUND IN CODEPEN
 
-/**
-     function allLongestStrings(inputArray) {
-        'use strict';
-        let maxSize = Math.max(...inputArray.map(x => x.length));
-        return inputArray.filter(x => x.length === maxSize);
-    }
- */
+
+// function allLongestStrings(inputArray) {
+//     'use strict';
+//     let maxSize = Math.max(...inputArray.map(x => x.length));
+//     return inputArray.filter(x => x.length === maxSize);
+// }
+
