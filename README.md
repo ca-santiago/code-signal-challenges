@@ -10,3 +10,5 @@ I have wrote this repo using JavaScript and Python.
 ### Content 
 * Matrix Element Sum
 * All Longest strings
+* Common Characters Count
+* Almost Increasing Sequence
